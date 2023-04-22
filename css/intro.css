@@ -1,0 +1,81 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("../img/intro1.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+  background-color: #4a148c;
+}
+@media (max-width: 1000px) {
+  .navbar:not(.top-nav-collapse) 
+  {
+    background-color: #4a148c;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) 
+  {
+    background-color: #4a148c;
+  }
+}
+.infoi
+{
+  color: orange;
+}
+.infoi:hover
+{
+  color: #4a148c;
+  background-color: white;
+}
+.downi
+{
+  color: white;
+}
+.downi:hover
+{
+  color: #4a148c;
+  border: 2px solid #4a148c;
+  background-color: white;
+  padding: 1rem;
+}
+
+#login-form {
+  background-color: rgba(126, 123, 215, 0.2);
+}
+
+.md-form label {
+  color: #ffffff;
+}
+.fabL
+{
+  padding: 0.8rem;
+  color: white;
+  background-color: #4a148c;
+  border-radius: 50%;
+}
+.fabL:hover
+{
+  padding: 0.8rem;
+  color: #4a148c;
+  background-color: white;
+  border: 2px solid #4a148c;
+  border-radius: 50%;
+}
+.h2rem
+{
+  height: 2rem;
+}
+h1, h2, h3
+{
+  font-family: Verdana;
+}
